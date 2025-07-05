@@ -1,5 +1,10 @@
 # Fragment Protocol
 
+![Solidity](https://img.shields.io/badge/Solidity-^0.8.28-blue)
+![Foundry](https://img.shields.io/badge/Built%20with-Foundry-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Research](https://img.shields.io/badge/Status-Research%20Infrastructure-lightblue)
+
 A novel blockchain ownership primitive that transforms traditional NFT mechanics through fragment-based architecture. NFTs are composed of exactly **4 collectible fragments** that users must acquire, complete, and transform through a systematic burn-to-fuse workflow.
 
 ## Overview
