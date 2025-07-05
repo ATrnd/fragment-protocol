@@ -184,7 +184,6 @@ contract FragmentFusion is IFragmentFusion, ERC721Enumerable {
    /// @notice Defensive layer validating fusion supply limit has not been reached
    /// @dev Validates current fusion count against maximum allowed fusion NFTs.
    ///      Defensive programming explicitly validating design constraints.
-   /// @param fragmentNftId The Fragment NFT ID to check fusion status for
    function _verifyFragmentFusionMax() private view {
        if (s_nextFragmentFusionTokenId.isFusionLimitReached(i_maxFragmentFusionNFTs)) {
            revert FragmentErrors.FragmentFusion__MaxFragmentFusionReached();
